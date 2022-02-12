@@ -1,0 +1,10 @@
+.crud_form_container form input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+
+    &:focus{
+        outline: none;
+    }
+}

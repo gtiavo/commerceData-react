@@ -1,0 +1,115 @@
+*{
+    font-family: Helvetica, Arial,  sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    width: 100%;
+}
+
+.mt-5{
+    margin-top: 5px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa-users{
+    font-size: 60px;
+    padding: 10px;
+    color: wheat;
+   
+}
+
+.fa-user{
+    font-size: 60px;
+    padding: 10px;
+}
+
+.fa-search{
+   margin-left: 10px;
+   margin-top: 3px;
+}
+
+.tabla{
+    border: 1px solid black;
+}
+
+.tabla th, td{
+    border: 1px solid black;
+}
+
+li{
+    list-style: none;
+}
+
+.fa-home{
+    font-size: 20px;
+    color: blue;
+    border-bottom: 5px solid blue;
+
+}
+
+.fa-product-hunt{
+    font-size: 20px;
+    color: $light-grey ;
+   
+}
+
+.fa-tools{
+    font-size: 20px;
+    color: $light-grey;
+
+  
+}
+
+.construccion{
+    background-image: url('https://www.lucushost.com/blog/wp-content/uploads/2018/11/como-crear-una-pagina-en-construccion.png');
+    height: 70vh;
+    
+}
+
+.preloader {
+    width: 70px;
+    height: 70px;
+    border: 10px solid #eee;
+    border-top: 10px solid #666;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: auto;
+    margin-top: 50%;
+  }
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

@@ -1,0 +1,15 @@
+// npm install node-sass para instalar las dependencias, hay que importarlo al
+//  componente principal de la aplicacion (index)
+// https://sass-lang.com/
+
+
+@import './base/settings';
+@import './base/base';
+
+
+
+@import './components/auth';
+@import './components/buttons';
+@import './components/nav';
+@import './components/data';
+@import './components/crud';
