@@ -3,6 +3,7 @@ import { Tablas } from './Tablas';
 import { eventSelectOver } from '../../actions/events'
 import { useEffect } from 'react';
 
+
 export const Inventario = () => {
 
   const dispatch = useDispatch();
@@ -21,7 +22,9 @@ export const Inventario = () => {
     }, [ dispatch ]);
 
   return (
-    <div>
+    <>
+    <div className='data_inventario_container'>
+    
         <h1>{nombre.toUpperCase()}</h1>
         <hr/>
       { subCategories.map(item => (
@@ -32,6 +35,7 @@ export const Inventario = () => {
         ))
       } 
     </div>
+    </>
   )
 }
 

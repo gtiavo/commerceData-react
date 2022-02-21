@@ -30,10 +30,22 @@ const handleselector3 = () => {
 const pagActiva = (item) => {
   if (item === "home") {
     handleselector3();
+    document.querySelector(".nav_content").style.height = "100px";
+    document.querySelector(".nav_content").style.transition = "0.5s";
+    document.querySelector(".nav_data_category").style.top = "50px";
+    document.querySelector(".nav_data_category").style.transition = "1s";
+
+
   } else if (item === "tools") {
     handleselector2();
+    document.querySelector(".nav_content").style.height = "50px";
+    document.querySelector(".nav_data_category").style.top = "0px";
+    document.querySelector(".nav_data_category").style.transition = "0.5s";
   } else if (item === "productos") {
     handleselector();
+    document.querySelector(".nav_content").style.height = "50px";
+    document.querySelector(".nav_data_category").style.top = "0px";
+    document.querySelector(".nav_data_category").style.transition = "0.5s";
   }
 };
 

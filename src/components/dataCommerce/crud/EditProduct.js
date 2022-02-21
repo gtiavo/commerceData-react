@@ -41,7 +41,8 @@ export const EditProduct = () => {
     
 
   return (
- <div className="crud_form_container">
+  <div className='crud_edit_form_contenedor'>
+ <div className="crud_form_container2">
       <form  onSubmit={ handleEditProduct }>
         <label>Producto
           <input 
@@ -57,7 +58,7 @@ export const EditProduct = () => {
 
           <label>Cantidad
           <input
-           type='number'
+           type='text'
             name="cantidad" 
             placeholder="cantidad"
             autoComplete="off"
@@ -84,6 +85,7 @@ export const EditProduct = () => {
           </button>
 
       </form>
+  </div>
   </div>
   )
 };

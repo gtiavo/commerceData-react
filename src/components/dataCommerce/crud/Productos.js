@@ -16,25 +16,32 @@ export const Productos = () => {
    
    dispatch( startCategories() )
    dispatch(startLocation('productos'))
-  }, [])
+  }, [ dispatch ])
   
 
 
   return (
-  <div>
-      <h1>Productos</h1>
+  <div >
+    <div className='crud_prod_contenedor' >
+      <div className='crud_produt_title'>
+      <h1>Productos</h1><i className="fa-solid fa-magnifying-glass"></i>
+      </div>
       <hr/>
-      <ul>
+      <ul className='crud_prod_ul' >
           { events.map( event => (
          <InventarioLis event={event} key={event.id} />
             ))
             }
       </ul>
 
-    <li>
-        <ul><Link to='/addproduct'> Agregar productos</Link></ul>
-        <ul><Link to='/editproduct'>editar productos</Link></ul>
-    </li>
+    <ul className='crud_prod_ul_edit'>
+    <li><i className="fa-solid fa-plus"><Link to='/addproduct'> Agregar productos</Link></i></li>
+        <li><i className="fa-solid fa-pen"><Link to='/editproduct'>Editar productos</Link></i></li>
+        <li><Link to='/addcategory'>Agregar Categoria</Link></li>
+        <li><Link to='/addsubcategory' >Agregar SubCategoria</Link></li>
+    </ul>
+    
+    </div>
 
   </div>
   )

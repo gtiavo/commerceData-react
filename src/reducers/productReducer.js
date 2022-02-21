@@ -12,8 +12,7 @@ export const productreducer = ( state = initialState, action) => {
 
         case types.eventAdd:
             return{
-                ...state,
-                events: action.payload
+                ...state
             }
        
         case types.eventLoaded:
@@ -47,6 +46,12 @@ export const productreducer = ( state = initialState, action) => {
                 ...state,
                 activeEvent: null
             } 
+        case types.eventOver:
+            return{
+                ...state,
+                events:[],
+                activeEvent: null
+            }
              
     
         default:

@@ -12,6 +12,7 @@ export const types = {
     eventAdd: '[Event] Event add',
     eventSelect: '[Event] Active event',
     eventSelectOver: '[Event] Desactive event',
+    eventOver: '[Event] End event',
     eventUpdate: '[Event] Event update',
     eventDelete: '[Event] Event Delete'
 }

@@ -20,14 +20,14 @@ export const TablaEdit = () => {
     }, [ dispatch ]);
 
   return (
-  <div>
+  <div className='crud_edit_screen_conteiner'>
       <h1>Tabla Edit</h1>
       <hr/>
       
-       <div>
+       
       
       <TablaBodyEdit2 />
-        </div>
+        
     
         
   </div>

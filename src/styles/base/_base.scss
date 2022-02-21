@@ -36,6 +36,7 @@ main{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 .fa-users{
@@ -55,8 +56,20 @@ a{
    margin-top: 3px;
 }
 
+.fa-magnifying-glass{
+    background-color: rgba(102, 102, 102, 0.466);
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+
+    color: blue;
+    
+}
+
 .tabla{
     border: 1px solid black;
+
 }
 
 .tabla th, td{
@@ -113,3 +126,13 @@ li{
       transform: rotate(360deg);
     }
   }
+ 
+.toogle{
+    display: block !important; 
+}
+
+.fa-minus{
+    display: block ;
+}
+
+

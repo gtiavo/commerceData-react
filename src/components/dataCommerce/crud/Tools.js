@@ -21,8 +21,10 @@ export const Tools = () => {
     }
 
   return (
-  <div>
+  <div className="crud_tools_container">
+      <div className="crud_tools_title" >
       <h1>Tools</h1>
+      </div>
       <hr/>
 
       <span

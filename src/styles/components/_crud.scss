@@ -1,10 +1,213 @@
+
 .crud_form_container form input{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     display: block;
     margin: auto;
-    margin-top: 10px;
-    padding: 5px;
-
+    margin-top: 15px;
+    padding: 20px;
+    font-size: 17px;
+    
     &:focus{
         outline: none;
     }
+}
+
+.crud_form_container{
+   
+    padding: 10px;
+    text-align: center;
+
+    & label{
+       
+        display: block ;
+        margin: auto;
+        padding: 10px;
+        font-size: 20px;
+        width: 50%;
+    }
+
+    & button {
+        margin-top: 20px;
+        height: 30px;
+        width: 100px;
+        
+    }
+}
+
+.crud_form_container2{
+    padding: 10px;
+    text-align: center;
+
+    & label{
+        display: block ;
+        padding: 10px;
+        font-size: 20px;
+        width: 50%;
+    }
+    & button {
+        margin-top: 20px;
+        height: 30px;
+        width: 100px;
+        
+    }
+}
+
+.crud_form_container2 form input{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    font-size: 17px;
+    
+    &:focus{
+        outline: none;
+    }
+}
+
+.crud_prod_contenedor{
+    padding-top: 50px;
+}
+
+.crud_tools_container{
+    padding-top: 50px;
+}
+
+.crud_tools_title{
+    padding: 10px;
+}
+
+.crud_addproduct_container{
+    padding-top: 50px;
+}
+
+.crud_addproduct_title{
+    display: flex;
+    padding: 10px;
+}
+
+.crud_edit_screen_conteiner{
+    padding-top: 50px;
+    width: 100%;
+    
+}
+
+.crud_edit_form_contenedor{
+    padding-top: 50px;
+   
+}
+
+.crud_edit_list_container{
+    border: 1px solid rgb(99, 95, 95);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 90%;
+}
+
+.crud_edit_product_list_title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+
+    & .title_plus {
+        margin-top: 3px;
+        margin-left: 10px;
+    }
+}
+.crud_edit_prdouct_ul{
+    display: none;
+    padding: 10px;
+
+    & li{
+        padding: 10px;
+    }
+}
+
+
+.crud_prod_ul{
+   
+    padding: 10px;
+}
+
+.crud_prod_ul li {
+    border-bottom: 1px solid blue;
+    font-weight: bold;
+    margin: 20px; 
+}
+
+.crud_prod_ul_edit{
+    border-top: 1px dashed red;
+    padding: 5px;
+    margin: auto;
+    margin: 0px 10px;
+
+    & li {
+        margin: 15px;
+    }
+}
+
+.crud_produt_title{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.crud_list_product_button{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    & button{
+        margin-top: 10px;
+        height: 30px;
+        width: 60px;
+        transition: 0.5s ease;
+
+        &:hover{
+            background-color: rgb(113, 113, 243);
+        }
+    }
+}
+
+.crud_category_delete_section{
+    & h3{
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px;
+    }
+    & p{
+        border: 1px dotted red ;
+        color: red;
+        margin: auto;
+        padding: 10px;
+        font-size: 18px;
+        width: 95%;
+    }
+}
+
+.crud_addcategory_sreen{
+    padding-top: 50px;
+}
+
+.crud_category_delete_ul{
+padding: 10px;
+
+& article{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+& i{
+    font-size: 20px;
+}
+}
+
+.crud_category_show{
+    display: none;
 }
